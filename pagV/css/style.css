@@ -1,0 +1,94 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	 background-image:url(../img/G.jpg);
+	background-size: cover;	
+}
+body:hover{
+	 background-image:url(../img/c.jpg);
+	background-size: cover;	
+}
+
+
+#menu{
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	background-color: black;
+
+}
+
+ul li{
+	display: inline-block;
+	text-align: center;
+
+}
+ul li:hover{
+	background-color: white;
+	border-radius: 30px;
+
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	font-size: 2.5em;
+	padding: 100px;
+	text-shadow:2px 2px 2px white;
+
+}
+a:hover{
+	color: green;
+     
+}
+
+#conIn{
+	
+	right: 27%;
+	margin-right: -27px;
+	position: absolute;
+	top: 25%;
+	margin-top: -25px;
+	height: 50%;
+	width: 50%;
+background-color: black;
+	opacity: 0.5;
+}
+
+#conIn:hover{
+	background-color: black;
+	opacity: 1;
+}
+#his{
+	color: white;
+	right: 27%;
+	margin-right: -27px;
+	position: absolute;
+	top: 25%;
+	margin-top: -25px;
+	height: 50%;
+	width: 50%;
+	background-color: black;
+	opacity: 0.9;
+	border-radius: 40px;
+}
+
+#for{
+ 	 position:relative;
+ 	 padding-top: 100px;
+ }
+
+ form{
+ 	position: absolute;
+ 	
+ 	right: 75%;
+ 	margin-right: -75px;
+ 	top: -50%;
+ 	margin-top: 50px;
+ }
+
+ label{
+ 	color: white;
+	font-size: 40px;
+	text-shadow: 3px 3px 3px white;
+ }
